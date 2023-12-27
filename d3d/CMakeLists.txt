@@ -8,7 +8,7 @@ add_subdirectory(tracking)
 
 if (BUILD_WITH_PYTORCH)
     add_subdirectory(box)
-    add_subdirectory(math)
+    add_subdirectory(mathh)
     add_subdirectory(point)
     add_subdirectory(voxel)
 endif ()

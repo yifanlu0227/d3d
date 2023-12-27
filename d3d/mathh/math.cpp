@@ -1,5 +1,5 @@
-#include "d3d/math/math.h"
-#include "d3d/math/bessel.h"
+#include "d3d/mathh/math.h"
+#include "d3d/mathh/bessel.h"
 
 using namespace torch;
 

@@ -1,5 +1,5 @@
 #include <torch/extension.h>
-#include "d3d/math/math.h"
+#include "d3d/mathh/math.h"
 
 PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
     #ifdef BUILD_WITH_CUDA

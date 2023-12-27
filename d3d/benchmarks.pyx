@@ -18,7 +18,7 @@ from libcpp.pair cimport pair
 
 from d3d.abstraction cimport Target3DArray, TransformSet, ObjectTarget3D
 from d3d.tracking.matcher cimport ScoreMatcher, DistanceTypes
-from d3d.math cimport wmean, diffnorm3, cross3
+from d3d.mathh cimport wmean, diffnorm3, cross3
 
 cdef inline int bisect(vector[float] &arr, float x) nogil:
     '''Cython version of bisect.bisect_left'''
